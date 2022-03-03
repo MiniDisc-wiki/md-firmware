@@ -1,10 +1,35 @@
 # md-firmware
 Firmware dumps for MiniDisc recorders!
 
-So far we have the firmware for the MZ-R700 (c1.3, non net-md) and the MZ-N510 (v1.6 net-md). These firmwares are likely shared among many same generation devices.
+## About
+In this repository you can find the firmware for various portable MiniDisc players. It is part of an ongoing effort to reverse engineer said devices.
 
-Rom starts at 0x00000000 (load the the roms at this address).
-Ram starts at 0x02000000.
-Peripherals are at 0x03000000.
+## Hardware revisions
+The major difference between firmwares is related to the SoC used. 
 
-The SoC for the R700 uses an ARM7TDMI core (ARMv4t), the MZ-N series probably something similar. Code can perfectly be decompiled and is a mix of ARM and Thumb code.
+| **SoC** | **Flash size** | **Ram size** | **Flash start** | **Ram start** | **Peripherals start** | **CPU Core** | **NetMD** |
+|---------|----------------|--------------|-----------------|---------------|-----------------------|--------------|-----------|
+| CXD2671 | 0x60000 (393k) | 0x4000 (16k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI     | No        |
+| CXD2677 | 0x70000 (459k) | 0x4800 (18k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM          | Yes       |
+| CXD2678 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM          | Yes       |
+| CXD2680 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM          | Yes       |
+
+## Available dumps
+Generally the firmware for devices that share the same SoC is the same (per version), regardless of the exact model. Minor patches may have been applied to the dump (from the factory), so dumps can vary slightly (a couple of bytes) between devices.
+
+| **CXD2671** | **Dumped devices**                                             |
+|-------------|----------------------------------------------------------------|
+| v1.3        | MZ-R700                                                        |
+
+| **CXD2677** | **Dumped devices**                                             |
+|-------------|----------------------------------------------------------------|
+| v1.3        | MZ-N505                                                        |
+| v1.4        | MZ-N505                                                        |
+
+| **CXD2678 - CXD2680** | **Dumped devices**                                             |
+|-----------------------|----------------------------------------------------------------|
+| v1.0                  | MZ-N920                                                        |
+| v1.1                  | MZ-N10                                                         |
+| v1.3                  | MZ-N10                                                         |
+| v1.6                  | MZ-N10, MZ-N510, MZ-NF610, MZ-N910                             |
+| _Note_                | _CXD2678 and CXD2680 devices seem to share the same firmwarre_ |
