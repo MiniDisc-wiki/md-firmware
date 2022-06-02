@@ -2,20 +2,28 @@
 Firmware dumps for MiniDisc recorders!
 
 ## About
-In this repository you can find the firmware for various portable MiniDisc players. It is part of an ongoing effort to reverse engineer said devices.
+In this repository, you can find the firmware for various portable MiniDisc players. It is part of an ongoing effort to reverse engineer said devices.
 
 ## Hardware revisions
-The major difference between firmwares is related to the SoC used. 
+The major difference between firmware versions is related to the SoC used. 
+
+
+### Recorders
+| **SoC** | **Flash size** | **Ram size** | **Flash start** | **Ram start** | **Peripherals start** | **CPU Core** | **NetMD** |
+|---------|----------------|--------------|-----------------|---------------|-----------------------|--------------|-----------|
+| CXD2671 | 0x60000 (384k) | 0x4000 (16k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI     | No        |
+| CXD2677 | 0x70000 (448k) | 0x4800 (18k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
+| CXD2678 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
+| CXD2680 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
+
+### Players
 
 | **SoC** | **Flash size** | **Ram size** | **Flash start** | **Ram start** | **Peripherals start** | **CPU Core** | **NetMD** |
 |---------|----------------|--------------|-----------------|---------------|-----------------------|--------------|-----------|
-| CXD2671 | 0x60000 (393k) | 0x4000 (16k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI     | No        |
-| CXD2677 | 0x70000 (459k) | 0x4800 (18k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM          | Yes       |
-| CXD2678 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM          | Yes       |
-| CXD2680 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM          | Yes       |
+| CXD2679 | 0x40000 (256k) | 0x3000 (12k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | No        |
 
 ## Available dumps
-Generally the firmware for devices that share the same SoC is the same (per version), regardless of the exact model. Minor patches may have been applied to the dump (from the factory), so dumps can vary slightly (a couple of bytes) between devices.
+Generally, the firmware for devices that share the same SoC is the same (per version), regardless of the exact model. Minor patches may have been applied to the dump (from the factory), so dumps can vary slightly (a couple of bytes) between devices.
 
 | **CXD2671** | **Dumped devices**                                             |
 |-------------|----------------------------------------------------------------|
@@ -28,6 +36,10 @@ Generally the firmware for devices that share the same SoC is the same (per vers
 | v1.2        | MZ-N1                                                          |
 | v1.3        | MZ-N505, MZ-N707                                               |
 | v1.4        | MZ-N505, MZ-N1                                                 |
+
+| **CXD2679          ** | **Dumped devices**                                             |
+|-----------------------|----------------------------------------------------------------|
+| v1.0                  | MZ-E520                                                        |
 
 | **CXD2678 - CXD2680** | **Dumped devices**                                             |
 |-----------------------|----------------------------------------------------------------|
