@@ -37,7 +37,7 @@ Generally, the firmware for devices that share the same SoC is the same (per ver
 | v1.3        | MZ-N505, MZ-N707                                               |
 | v1.4        | MZ-N505, MZ-N1                                                 |
 
-| **CXD2679          ** | **Dumped devices**                                             |
+| **CXD2679**           | **Dumped devices**                                             |
 |-----------------------|----------------------------------------------------------------|
 | v1.0                  | MZ-E520                                                        |
 
