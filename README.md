@@ -17,7 +17,7 @@ The major difference between firmware versions is related to the SoC used.
 | CXD2677 | 0x70000 (448k) | 0x4800 (18k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
 | CXD2678 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
 | <a href="https://github.com/Sir68k/md-firmware/wiki/CXD2680">CXD2680</a> | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
-| CXD2681  | ~1MiB        | 64k           | 0x00000000      | 0x00800000    | 0x03000000            | ARM          | Yes        |
+| CXD2681  | 1MiB         | 64k           | 0x00000000      | 0x00800000    | 0x03000000            | ARM          | Yes        |
 
 ### Players
 
@@ -52,3 +52,7 @@ Generally, the firmware for devices that share the same SoC is the same (per ver
 | v1.4                  | MZ-N910                                                        |
 | v1.6                  | MZ-N10, MZ-NE410, MZ-N510, MZ-NF520D, MZ-NF610, MZ-N710, MZ-N910, AIWA AM-NX9 |
 | _Note_                | _CXD2678 and CXD2680 devices seem to share the same firmware_ |
+
+| **CXD2681**           | **Dumped devices**                                             |
+|-----------------------|----------------------------------------------------------------|
+| v1.0                  | MZ-RH10, MZ-RH910                                              |
