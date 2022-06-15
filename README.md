@@ -12,9 +12,12 @@ The major difference between firmware versions is related to the SoC used.
 | **SoC** | **Flash size** | **Ram size** | **Flash start** | **Ram start** | **Peripherals start** | **CPU Core** | **NetMD** |
 |---------|----------------|--------------|-----------------|---------------|-----------------------|--------------|-----------|
 | CXD2671 | 0x60000 (384k) | 0x4000 (16k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI     | No        |
+| CXD2674 |                |              |                 |               |                       | ARM7TDMI     | No        |
+| CXD2674 |                |              |                 |               |                       | ARM7TDMI     | No        |
 | CXD2677 | 0x70000 (448k) | 0x4800 (18k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
 | CXD2678 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
-| CXD2680 | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
+| <a href="https://github.com/Sir68k/md-firmware/wiki/CXD2680">CXD2680</a> | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    | Yes       |
+| CXD2681  | ~1MiB        | 64k           | 0x00000000      | 0x00800000    | 0x03000000            | ARM          | Yes        |
 
 ### Players
 
