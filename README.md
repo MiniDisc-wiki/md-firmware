@@ -18,6 +18,8 @@ The major difference between firmware versions is related to the SoC used.
 | CXD2678 | Type-S NetMD  |0xA0000 (640k) | 0x9000 (36k)    | 0x00000000       | 0x02000000    | 0x03000000            | ARM7TDMI?    |
 | <a href="https://github.com/Sir68k/md-firmware/wiki/CXD2680">CXD2680</a> | Type-S NetMD | 0xA0000 (640k) | 0x9000 (36k) | 0x00000000      | 0x02000000    | 0x03000000            | ARM7TDMI?    |
 | CXD2681  | NetMD, HiMD  | 1MiB         | 64k           | 0x00000000      | 0x00800000    | 0x03000000            | ARM          |
+| CXD2683  | NetMD, HiMD, Camera  | -         | -           | -      | -    | -            | -          |
+| CXD2687  | NetMD, HiMD, Latest?  | -         | -           | -      | -    | -            | -          |
 
 ### Players
 
