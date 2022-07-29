@@ -52,6 +52,7 @@ Generally, the firmware for devices that share the same SoC is the same (per ver
 | v1.2                  | MZ-N510                                                        |
 | v1.3                  | MZ-N10, MZ-NE410                                               |
 | v1.4                  | MZ-N910                                                        |
+| v1.5                  | MZ-N510                                                        |
 | v1.6                  | MZ-N10, MZ-NE410, MZ-N510, MZ-NF520D, MZ-NF610, MZ-N710, MZ-N910, AIWA AM-NX9 |
 | _Note_                | _CXD2678 and CXD2680 devices seem to share the same firmware_ |
 
