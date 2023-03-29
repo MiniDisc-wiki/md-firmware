@@ -11,9 +11,8 @@ The major difference between firmware versions is related to the SoC used.
 ### Recorders
 | **SoC** | **Description**  | **Flash size** | **SRAM size**   | **DRAM size**    | **CPU Core**  |
 |---------|------------------|----------------|-----------------|------------------|---------------|
-| CXD2671 |                  | 0x60000 (384k) | 0x4000 (16k)    |                  | ARM7TDMI      |
-| CXD2672 |                  |                |                 |                  |               |
-| CXD2674 |                  |                |                 |                  |               |
+| CXD2671 | Type-R           | 0x60000 (384k) | 0x4000 (16k)    |                  | ARM7TDMI      |
+| CXD2674 | Type-R           |                |                 |                  |               |
 | CXD2677 | Type-R NetMD     | 0x70000 (448k) | 0x4800 (18k)    | 2MiB             | ARM7TDMI      |
 | CXD2678 | Type-S NetMD     | 0xA0000 (640k) | 0x9000 (36k)    | 16MiB            | ARM7TDMI      |
 | CXD2680 | Type-S NetMD     | 0xA0000 (640k) | 0x9000 (36k)    | 2MiB             | ARM7TDMI      |
