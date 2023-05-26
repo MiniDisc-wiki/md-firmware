@@ -61,6 +61,7 @@ Generally, the firmware for devices that share the same SoC is the same (per ver
 | v1.000                | MZ-RH10, MZ-RH910                                              |
 | v1.100                | MZ-NH700, MZ-NH900                                             |
 | v1.10A                | MZ-NH600                                                       |
+| v1.200                | MZ-NH1                                                         |
 
 | **CXD2687**           | **Dumped devices**                                             |
 |-----------------------|----------------------------------------------------------------|
