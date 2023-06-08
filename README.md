@@ -10,7 +10,7 @@ In this repository, you can find the firmware for various portable MiniDisc play
 | CXD2671 | Type-R           | 0x60000 (384k) | 0x4000 (16k)    |                  | ARM7TDMI      |
 | CXD2674 | Type-R           |                |                 |                  |               |
 | CXD2677 | Type-R NetMD     | 0x70000 (448k) | 0x4800 (18k)    | 2MiB             | ARM7TDMI      |
-| CXD2678 | Type-S NetMD     | 0xA0000 (640k) | 0x9000 (36k)    | 16MiB            | ARM7TDMI      |
+| CXD2678 | Type-S NetMD     | 0xA0000 (640k) | 0x9000 (36k)    | 8MiB             | ARM7TDMI      |
 | CXD2680 | Type-S NetMD     | 0xA0000 (640k) | 0x9000 (36k)    | 2MiB             | ARM7TDMI      |
 | CXD2681 | NetMD, HiMD      | 1MiB           | 64k             | 16MiB            | ARM7TDMI+     |
 | CXD2683 | NetMD, HiMD, Camera  | -          | -               | -                |               |
