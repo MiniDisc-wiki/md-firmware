@@ -4,11 +4,7 @@ Firmware dumps for MiniDisc recorders!
 ## About
 In this repository, you can find the firmware for various portable MiniDisc players. It is part of an ongoing effort to reverse engineer said devices.
 
-## Hardware revisions
-The major difference between firmware versions is related to the SoC used. 
-
-
-### Recorders
+### Sony Recorders
 | **SoC** | **Description**  | **Flash size** | **SRAM size**   | **DRAM size**    | **CPU Core**  |
 |---------|------------------|----------------|-----------------|------------------|---------------|
 | CXD2671 | Type-R           | 0x60000 (384k) | 0x4000 (16k)    |                  | ARM7TDMI      |
@@ -20,14 +16,15 @@ The major difference between firmware versions is related to the SoC used.
 | CXD2683 | NetMD, HiMD, Camera  | -          | -               | -                |               |
 | CXD2687 | NetMD, HiMD, Latest? | 1MiB       | 32k             | 16MiB            | ARM7TDMI+     |            
 
-### Players
+### Sony Players
 
-| **SoC** | **Flash size** | **Ram size** |  **DRAM size** | **CPU Core** | **Description** |
-|---------|----------------|--------------|----------------|--------------|-----------------|
-| CXD2679 | 0x40000 (256k) | 0x3000 (12k) |                | ARM7TDMI     | No USB          |
+| **SoC** | **Description** | **Flash size** | **Ram size** |  **DRAM size** | **CPU Core** |
+|---------|-----------------|----------------|--------------|----------------|--------------|
+| CXD2679 | Type-S          | 0x40000 (256k) | 0x3000 (12k) |                | ARM7TDMI     |
 
 ## Available dumps
-Generally, the firmware for devices that share the same SoC is the same (per version), regardless of the exact model. Minor patches may have been applied to the firmware (from the factory), so dumps can vary slightly (a couple of bytes) between devices.
+Generally, firmwares are shared for devices of the same generation and SoC. 
+Minor patches may have been applied to the firmware (using soft patches), so dumps can vary slightly between devices.
 
 | **CXD2671** | **Dumped devices**                                             |
 |-------------|----------------------------------------------------------------|
@@ -58,11 +55,17 @@ Generally, the firmware for devices that share the same SoC is the same (per ver
 
 | **CXD2681**           | **Dumped devices**                                             |
 |-----------------------|----------------------------------------------------------------|
-| v1.000                | MZ-RH10, MZ-RH910                                              |
-| v1.100                | MZ-NH700, MZ-NH900                                             |
+| **NH generation**     |                                                                |
+| v1.100                | MZ-NH1, MZ-NH700, MZ-NH900                                     |
 | v1.10A                | MZ-NH600                                                       |
 | v1.200                | MZ-NH1                                                         |
+| **RH generation**     |                                                                |
+| v1.000                | MZ-RH10, MZ-RH910                                              |
+
 
 | **CXD2687**           | **Dumped devices**                                             |
 |-----------------------|----------------------------------------------------------------|
+| v1.060                | MZ-RH1                                                         |
+| v1.070                | MZ-RH1                                                         |
+| v1.090                | MZ-RH1                                                         |
 | v1.0A0                | MZ-RH1                                                         |
