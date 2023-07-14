@@ -56,6 +56,7 @@ Minor patches may have been applied to the firmware (using soft patches), so dum
 | **CXD2681**           | **Dumped devices**                                             |
 |-----------------------|----------------------------------------------------------------|
 | **NH generation**     |                                                                |
+| v1.000                | MZ-NH600                                                       |
 | v1.100                | MZ-NH1, MZ-NH700, MZ-NH900                                     |
 | v1.10A                | MZ-NH600                                                       |
 | v1.200                | MZ-NH1                                                         |
