@@ -69,5 +69,6 @@ Minor patches may have been applied to the firmware (using soft patches), so dum
 | v1.040                | MZ-RH1                                                         |
 | v1.060                | MZ-RH1                                                         |
 | v1.070                | MZ-RH1                                                         |
+| v1.080                | MZ-RH1                                                         |
 | v1.090                | MZ-RH1                                                         |
 | v1.0A0                | MZ-RH1                                                         |
