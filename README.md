@@ -28,7 +28,7 @@ Minor patches may have been applied to the firmware (using soft patches), so dum
 
 | **CXD2671** | **Dumped devices**                                             |
 |-------------|----------------------------------------------------------------|
-| v1.3        | MZ-R700                                                        |
+| v1.3        | MZ-R700, MZ-R501                                               |
 
 | **CXD2677** | **Dumped devices**                                             |
 |-------------|----------------------------------------------------------------|
@@ -60,6 +60,7 @@ Minor patches may have been applied to the firmware (using soft patches), so dum
 | v1.100                | MZ-NH1, MZ-NH700, MZ-NH900                                     |
 | v1.10A                | MZ-NH600                                                       |
 | v1.200                | MZ-NH1                                                         |
+| v1.20A                | MZ-NH3D                                                        |
 | **RH generation**     |                                                                |
 | v1.000                | MZ-RH10, MZ-RH910                                              |
 
